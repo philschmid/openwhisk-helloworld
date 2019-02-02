@@ -1,0 +1,19 @@
+{
+  "name": "helloWorld",
+  "version": "1.0.0",
+  "description": "Sample OpenWhisk NodeJS serverless framework service.",
+  "main": "handler.js",
+  "scripts": {
+    "start": "node test.js ./handler.js ",
+    "build": "sls deploy",
+    "test": "",
+    "eject": ""
+  },
+  "keywords": [
+    "serverless",
+    "openwhisk"
+  ],
+  "devDependencies": {
+    "serverless-openwhisk": ">=0.13.0"
+  }
+}
